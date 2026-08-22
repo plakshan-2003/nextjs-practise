@@ -3,6 +3,10 @@ import styles from "./page.module.css";
 
 export default function Home() {
   return (
-   <h1>hellow next js</h1>
+    <div>
+      <h1>hellow next jss</h1>
+    </div>
+
+
   );
 }
