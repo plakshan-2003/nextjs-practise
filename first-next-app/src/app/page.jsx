@@ -2,15 +2,13 @@
 import styles from "./page.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import Button from "./(component)/Button";
 
 // import img1 from "../../public/img3.jpg";
 
 
 export default function Home() {
 
-  const handleClick = () => {
-    alert("hellow");
-  }
   return (
     <div>
       <h2 className={styles.heading}>Heading 2</h2>
@@ -34,10 +32,8 @@ export default function Home() {
         height={1000}
         alt="img1"
       />
+      <Button />
 
-      <button onClick={handleClick} className={styles.button}>
-        Click Here
-      </button>
     </div>
 
 
