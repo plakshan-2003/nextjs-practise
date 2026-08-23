@@ -5,3 +5,14 @@
 .body{
   background-color: #1a1a1a;
 }
+.row{
+  padding: 1rem;
+  border: solid red;
+  background-color: #d33d3d30;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
