@@ -1,6 +1,7 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
+import Image  from "next/image";
+import img1 from "../../public/img3.jpg";
 
 export default function Home() {
   return (
@@ -12,6 +13,11 @@ export default function Home() {
         <li><Link href="/about">About</Link></li>
         <li><Link href="/contact">Contact</Link></li>
       </ul>
+
+      <h1>image component</h1>
+       <Image
+       src={img1}
+       />
     </div>
 
 
