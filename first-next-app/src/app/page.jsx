@@ -1,9 +1,16 @@
+'use client'
 import styles from "./page.module.css";
 import Link from "next/link";
-import Image  from "next/image";
+import Image from "next/image";
+
 // import img1 from "../../public/img3.jpg";
 
+
 export default function Home() {
+
+  const handleClick = () => {
+    alert("hellow");
+  }
   return (
     <div>
       <h2 className={styles.heading}>Heading 2</h2>
@@ -15,18 +22,22 @@ export default function Home() {
       </ul>
 
       <h1>image component</h1>
-       {/* <Image
+      {/* <Image
        src={img1}
        alt="img1"
        style={{width:"100%", height:"500px", objectFit:"cover"}}
        /> */}
 
-       <Image
-       src="https://images.unsplash.com/photo-1779896411942-ea4ca54de043?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-       width={1200}
-       height ={1000}
-       alt="img1"
-       />
+      <Image
+        src="https://images.unsplash.com/photo-1779896411942-ea4ca54de043?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        width={1200}
+        height={1000}
+        alt="img1"
+      />
+
+      <button onClick={handleClick} className={styles.button}>
+        Click Here
+      </button>
     </div>
 
 

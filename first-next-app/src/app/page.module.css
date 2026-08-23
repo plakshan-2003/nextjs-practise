@@ -5,3 +5,14 @@
 .heading{
   color: rgb(5, 70, 3);
 }
+.button{
+  background-color: rgb(49, 139, 192);
+  color: white;
+  padding: 10px 20px;
+  border: 1;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color: rgb(3, 50, 2);
+}
