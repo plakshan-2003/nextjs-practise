@@ -1,6 +1,14 @@
-.body{
+.bodyy{
     background-color: #1a1a1a;
 }
-.h1{
-    color:red;
+.heading{
+    color: rgb(5, 50, 102);
+}
+
+.link{
+    color: rgb(245, 6, 6);
+    text-decoration: none;
+}
+.link:hover{
+    color: rgb(6, 245, 6);
 }
