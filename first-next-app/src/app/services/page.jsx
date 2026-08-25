@@ -8,7 +8,7 @@ function page() {
       <div>
         <h1 className={styles.heading}>services page</h1>
         <Link href="/" className={styles.link}>
-          Back to home
+          Back to home now
         </Link>
       </div>
     </div>
